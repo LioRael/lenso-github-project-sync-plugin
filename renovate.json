@@ -3,4 +3,3 @@
   "extends": ["config:recommended"],
   "rangeStrategy": "pin"
 }
-

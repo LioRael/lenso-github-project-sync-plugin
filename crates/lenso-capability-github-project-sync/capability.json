@@ -6,4 +6,3 @@
     {"name":"list_bindings","interaction":"request","request_schema":"schemas/list-bindings-request.schema.json","response_schema":"schemas/list-bindings-response.schema.json","domain_error_schema":"schemas/sync-error.schema.json"}
   ]
 }
-

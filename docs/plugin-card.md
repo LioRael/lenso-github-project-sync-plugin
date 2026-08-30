@@ -7,4 +7,3 @@ Owns: GitHub installation metadata, repository mappings, field maps, stable issu
 Requires: Secrets, HTTP Client, Projects, and Projects Collaboration. The Host must route exact webhook bytes and invoke the worker under an actor authorized by the mapped Lenso organization/project.
 
 Replaceability proof: uninstalling this Plugin removes sync behavior and its schema; Projects entities and GitHub Issues remain independently usable. Replacing the implementation is safe at its durable Capability and cursor boundaries.
-

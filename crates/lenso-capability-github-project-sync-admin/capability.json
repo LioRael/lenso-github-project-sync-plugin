@@ -15,4 +15,3 @@
     {"name":"get_checkpoint","interaction":"request","request_schema":"schemas/get-checkpoint-request.schema.json","response_schema":"schemas/checkpoint-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"}
   ]
 }
-

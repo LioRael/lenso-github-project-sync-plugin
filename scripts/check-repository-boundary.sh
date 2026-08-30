@@ -46,4 +46,3 @@ rg -q 'FOR UPDATE SKIP LOCKED' crates/lenso-github-project-sync-postgres-plugin/
 rg -q 'X-Hub-Signature-256' README.md
 
 printf 'repository boundary is GitHub-sync-owned and Projects-storage-neutral\n'
-

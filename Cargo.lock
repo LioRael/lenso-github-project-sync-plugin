@@ -1073,7 +1073,7 @@ source = "git+https://github.com/LioRael/lenso-protocols?rev=9769bc5dc828fd9111d
 [[package]]
 name = "lenso-postgres-kit"
 version = "0.1.0"
-source = "git+https://github.com/LioRael/lenso-postgres-kit?rev=525c1012c789e6f54c3c2fdaf8507a626c93e65f#525c1012c789e6f54c3c2fdaf8507a626c93e65f"
+source = "git+https://github.com/LioRael/lenso-postgres-kit?rev=97ff73638d1fca098034c443539d44d95062eea4#97ff73638d1fca098034c443539d44d95062eea4"
 dependencies = [
  "hex",
  "sha2 0.11.0",

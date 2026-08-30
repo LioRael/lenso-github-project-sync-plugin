@@ -1,2 +1,1 @@
 {"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,"required":["mapping_id","github_issue_number"],"properties":{"mapping_id":{"type":"string"},"github_issue_number":{"type":"integer","minimum":1}}}
-

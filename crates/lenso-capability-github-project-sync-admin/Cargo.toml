@@ -20,4 +20,3 @@ lenso-contract-codegen.workspace = true
 
 [lints]
 workspace = true
-

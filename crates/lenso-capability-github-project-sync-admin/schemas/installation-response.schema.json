@@ -1,2 +1,1 @@
 {"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,"required":["installation_id","account_login","account_id","active","revision","updated_at"],"properties":{"installation_id":{"type":"string"},"account_login":{"type":"string"},"account_id":{"type":"string"},"active":{"type":"boolean"},"revision":{"type":"string"},"updated_at":{"type":"string","format":"date-time"}}}
-

@@ -44,4 +44,3 @@ postgres-acceptance = []
 
 [lints]
 workspace = true
-

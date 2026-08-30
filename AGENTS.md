@@ -6,4 +6,3 @@
 - Secrets and installation tokens must never be persisted or included in debug output.
 - A declared operation must be implemented; do not add `not_supported` placeholders.
 - Run Cargo through `/Users/leosouthey/Projects/framework/.lenso-tools/bin/lenso-cargo`.
-
