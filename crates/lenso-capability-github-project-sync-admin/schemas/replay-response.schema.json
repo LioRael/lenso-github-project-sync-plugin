@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,"required":["kind","item_id","state"],"properties":{"kind":{"enum":["delivery","outbound"]},"item_id":{"type":"string"},"state":{"enum":["pending","retry"]}}}

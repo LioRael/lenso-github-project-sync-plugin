@@ -1,0 +1,8 @@
+{
+  "id":"lenso.github-project-sync@1","version":"1.0.0","portable":true,"cross_lane_transfer":true,
+  "operations":[
+    {"name":"ingest_webhook","interaction":"request","request_schema":"schemas/ingest-webhook-request.schema.json","response_schema":"schemas/delivery-response.schema.json","domain_error_schema":"schemas/sync-error.schema.json"},
+    {"name":"get_binding","interaction":"request","request_schema":"schemas/get-binding-request.schema.json","response_schema":"schemas/binding-response.schema.json","domain_error_schema":"schemas/sync-error.schema.json"},
+    {"name":"list_bindings","interaction":"request","request_schema":"schemas/list-bindings-request.schema.json","response_schema":"schemas/list-bindings-response.schema.json","domain_error_schema":"schemas/sync-error.schema.json"}
+  ]
+}

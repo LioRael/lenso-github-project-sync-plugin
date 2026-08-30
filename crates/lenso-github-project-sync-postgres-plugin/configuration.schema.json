@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,
+  "required":["schema","database_url_secret","app_id","private_key_secret_ref","webhook_secret_ref","github_api_origin","github_api_version","allowed_github_origins","max_webhook_body_bytes","webhook_callers","reader_callers","admin_callers","worker_callers"],
+  "properties":{
+    "schema":{"type":"string","minLength":1,"maxLength":63},"database_url_secret":{"type":"string"},"app_id":{"type":"string"},"private_key_secret_ref":{"type":"string"},"webhook_secret_ref":{"type":"string"},
+    "github_api_origin":{"type":"string"},"github_api_version":{"type":"string"},"allowed_github_origins":{"type":"array","minItems":1,"maxItems":16,"uniqueItems":true,"items":{"type":"string"}},
+    "max_webhook_body_bytes":{"type":"integer","minimum":1024,"maximum":16777216},
+    "webhook_callers":{"type":"array","minItems":1,"maxItems":64,"uniqueItems":true,"items":{"type":"string"}},"reader_callers":{"type":"array","minItems":1,"maxItems":64,"uniqueItems":true,"items":{"type":"string"}},"admin_callers":{"type":"array","minItems":1,"maxItems":64,"uniqueItems":true,"items":{"type":"string"}},"worker_callers":{"type":"array","minItems":1,"maxItems":64,"uniqueItems":true,"items":{"type":"string"}}
+  }
+}

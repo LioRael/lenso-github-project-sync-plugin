@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","oneOf":[{"const":"forbidden"},{"const":"invalid_request"},{"const":"invalid_signature"},{"const":"delivery_conflict"},{"const":"not_found"},{"const":"revision_conflict"},{"const":"mapping_inactive"},{"const":"dependency_failure"}]}

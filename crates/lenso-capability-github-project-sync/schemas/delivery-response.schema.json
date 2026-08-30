@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,"required":["delivery_id","state","duplicate","received_at"],"properties":{"delivery_id":{"type":"string"},"state":{"enum":["pending","processing","retry","succeeded","dead"]},"duplicate":{"type":"boolean"},"received_at":{"type":"string","format":"date-time"}}}
