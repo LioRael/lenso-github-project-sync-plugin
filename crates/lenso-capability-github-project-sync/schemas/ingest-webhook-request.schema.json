@@ -1,0 +1,2 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,"required":["delivery_id","event","signature_256","body"],"properties":{"delivery_id":{"type":"string","minLength":1,"maxLength":128},"event":{"type":"string","minLength":1,"maxLength":64},"signature_256":{"type":"string","pattern":"^sha256=[0-9a-f]{64}$"},"body":{"type":"string","format":"byte","maxLength":33554432}}}
+

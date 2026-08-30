@@ -1,0 +1,18 @@
+{
+  "id":"lenso.github-project-sync-admin@1","version":"1.0.0","portable":true,"cross_lane_transfer":true,
+  "operations":[
+    {"name":"set_app_credentials","interaction":"request","request_schema":"schemas/set-app-credentials-request.schema.json","response_schema":"schemas/app-credentials-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"set_webhook_secrets","interaction":"request","request_schema":"schemas/set-webhook-secrets-request.schema.json","response_schema":"schemas/webhook-secrets-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"put_installation","interaction":"request","request_schema":"schemas/put-installation-request.schema.json","response_schema":"schemas/installation-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"revoke_installation","interaction":"request","request_schema":"schemas/revoke-installation-request.schema.json","response_schema":"schemas/installation-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"put_mapping","interaction":"request","request_schema":"schemas/put-mapping-request.schema.json","response_schema":"schemas/mapping-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"delete_mapping","interaction":"request","request_schema":"schemas/delete-mapping-request.schema.json","response_schema":"schemas/delete-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"list_mappings","interaction":"request","request_schema":"schemas/list-mappings-request.schema.json","response_schema":"schemas/list-mappings-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"inspect_delivery","interaction":"request","request_schema":"schemas/inspect-delivery-request.schema.json","response_schema":"schemas/delivery-detail-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"list_dead_letters","interaction":"request","request_schema":"schemas/list-dead-letters-request.schema.json","response_schema":"schemas/list-dead-letters-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"replay_dead_letter","interaction":"request","request_schema":"schemas/replay-dead-letter-request.schema.json","response_schema":"schemas/replay-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"run_worker","interaction":"request","request_schema":"schemas/run-worker-request.schema.json","response_schema":"schemas/run-worker-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"},
+    {"name":"get_checkpoint","interaction":"request","request_schema":"schemas/get-checkpoint-request.schema.json","response_schema":"schemas/checkpoint-response.schema.json","domain_error_schema":"schemas/admin-error.schema.json"}
+  ]
+}
+

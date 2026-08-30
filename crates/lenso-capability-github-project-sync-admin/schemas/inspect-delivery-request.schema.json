@@ -1,0 +1,2 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,"required":["delivery_id"],"properties":{"delivery_id":{"type":"string"}}}
+
