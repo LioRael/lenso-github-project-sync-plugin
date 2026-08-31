@@ -102,10 +102,10 @@ GitHub cannot faithfully represent Projects cycles, parent/relations, priority, 
 ```bash
 lenso-contract-codegen check crates/lenso-capability-github-project-sync/capability.json --rust crates/lenso-capability-github-project-sync/src/generated.rs
 lenso-contract-codegen check crates/lenso-capability-github-project-sync-admin/capability.json --rust crates/lenso-capability-github-project-sync-admin/src/generated.rs
-/Users/leosouthey/Projects/framework/.lenso-tools/bin/lenso-cargo fmt --all -- --check
-/Users/leosouthey/Projects/framework/.lenso-tools/bin/lenso-cargo check --locked --workspace --all-targets
-/Users/leosouthey/Projects/framework/.lenso-tools/bin/lenso-cargo test --locked --workspace
-/Users/leosouthey/Projects/framework/.lenso-tools/bin/lenso-cargo clippy --locked --workspace --all-targets -- -D warnings
+cargo fmt --all -- --check
+cargo check --locked --workspace --all-targets
+cargo test --locked --workspace
+cargo clippy --locked --workspace --all-targets -- -D warnings
 ./scripts/check-repository-boundary.sh
 ```
 
