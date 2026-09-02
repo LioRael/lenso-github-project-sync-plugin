@@ -907,7 +907,7 @@ dependencies = [
 
 [[package]]
 name = "lenso-capability-github-project-sync"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "futures",
  "lenso-contract-runtime",
@@ -919,7 +919,7 @@ dependencies = [
 
 [[package]]
 name = "lenso-capability-github-project-sync-admin"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "futures",
  "lenso-contract-runtime",
@@ -1036,7 +1036,7 @@ dependencies = [
 
 [[package]]
 name = "lenso-github-project-sync-postgres-plugin"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "base64",
  "futures",

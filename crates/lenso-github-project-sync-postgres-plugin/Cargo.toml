@@ -1,6 +1,6 @@
 [package]
 name = "lenso-github-project-sync-postgres-plugin"
-version = "0.1.0"
+version = "0.1.1"
 edition.workspace = true
 license.workspace = true
 repository.workspace = true
@@ -17,8 +17,8 @@ hex.workspace = true
 hmac.workspace = true
 jsonwebtoken.workspace = true
 lenso.workspace = true
-lenso-capability-github-project-sync = { path = "../lenso-capability-github-project-sync", version = "0.1.0" }
-lenso-capability-github-project-sync-admin = { path = "../lenso-capability-github-project-sync-admin", version = "0.1.0" }
+lenso-capability-github-project-sync = { path = "../lenso-capability-github-project-sync", version = "0.1.1" }
+lenso-capability-github-project-sync-admin = { path = "../lenso-capability-github-project-sync-admin", version = "0.1.1" }
 lenso-capability-http-client.workspace = true
 lenso-capability-projects.workspace = true
 lenso-capability-projects-collaboration.workspace = true
