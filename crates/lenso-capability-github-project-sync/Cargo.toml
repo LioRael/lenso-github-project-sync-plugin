@@ -5,7 +5,11 @@ edition.workspace = true
 license.workspace = true
 repository.workspace = true
 description = "Portable webhook ingestion and binding inspection contract for Lenso GitHub Project Sync."
-build = "build.rs"
+
+[package.metadata.lenso.contract]
+descriptor = "capability.json"
+projection = "rust"
+output = "src/generated.rs"
 
 [dependencies]
 futures.workspace = true
@@ -14,9 +18,6 @@ lenso-kernel.workspace = true
 lenso-plugin-authoring.workspace = true
 serde.workspace = true
 serde_json.workspace = true
-
-[build-dependencies]
-lenso-contract-codegen.workspace = true
 
 [lints]
 workspace = true
